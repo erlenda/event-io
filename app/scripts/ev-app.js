@@ -1,6 +1,10 @@
 'use strict';
 angular.module('ev', ['ngRoute'], function () {
+}).config(function() {
 });
+
+angular.module('ev').constant('_', window._);
+angular.module('ev').constant('google', window.google);
 
 angular.module('ev', ['ngRoute', 'ng-bootstrap-datepicker'])
     .config(['$routeProvider', '$locationProvider',

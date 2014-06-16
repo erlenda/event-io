@@ -1,11 +1,9 @@
 angular.module('ev')
-  .controller('MainCtrl', ['$scope', '$timeout', '$log',
-      function ($scope, $timeout, $log) {
-    $scope.coords = [
-      { id: 0, name: 'Bergen', lat: 60.3900, lng: 5.3200, zoom: 14},
-      { id: 1, name: 'Oslo', lat: 59.9100, lng: 10.7500, zoom: 13},
-      { id: 2, name: 'Trondheim', lat: 63.4297, lng: 10.3933, zoom: 13}
-    ];
+  .controller('MainCtrl', ['$scope', '$timeout', '$log', 'statics',
+      function ($scope, $timeout, $log, statics) {
+    $scope.coords = statics.getCities();
+    $scope.markers = statics.getLocations();
+
     $scope.activeCoords = $scope.coords[0];
     $scope.activeDate = moment().format('YYYY.MM.DD');
     $scope.dateOptions = {
@@ -17,40 +15,53 @@ angular.module('ev')
       weekStart: 0
     };
 
+    $scope.map = null;
+
     $scope.fetchMapElem = function () {
-      loadMaps();
+      loadMaps($scope.activeCoords.id);
+      loadMarkers($scope.activeCoords.id);
     };
 
     $scope.fetchMapElem();
 
-    $scope.coordsChanged = function (id) {
-      $scope.activeCoords = $scope.coords[id];
-      loadMaps();
+    $scope.coordsChanged = function (cid) {
+      $scope.activeCoords = $scope.coords[cid];
+      loadMaps(cid);
+      loadMarkers(cid);
     };
 
-    function loadMarkers () {
-      var myLatlng = new google.maps.LatLng(60.3900, 5.3200);
-      var marker = new google.maps.Marker({
-        position: myLatlng,
-        title:"Bergen",
-        animation: google.maps.Animation.DROP
+    function loadMarkers (cid) {
+      var tmpMarkers = statics.getLocationsByCid(cid);
+
+        var timer = 100;
+        var incr = 100;
+
+      _.each(tmpMarkers, function (mark) {
+
+        $timeout(function () {
+          var myLatlng = new google.maps.LatLng(mark.lat, mark.lng);
+          var marker = new google.maps.Marker({
+            position: myLatlng,
+            title: mark.label,
+            animation: google.maps.Animation.DROP
+          });
+
+          google.maps.event.addListener(marker, 'click', toggleBounce);
+          marker.setMap($scope.map);
+          timer += incr;
+        }, timer);
       });
-
-      google.maps.event.addListener(marker, 'click', toggleBounce);
-
-      marker.setMap($scope.map);
     }
 
     function toggleBounce() {
-
-      if (marker.getAnimation() != null) {
+      if (marker.getAnimation() !== null) {
         marker.setAnimation(400);
       } else {
         marker.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
 
-    function loadMaps () {
+    function loadMaps (id) {
       var mapOptions = {
         zoom: $scope.activeCoords.zoom,
         center: new google.maps.LatLng($scope.activeCoords.lat, $scope.activeCoords.lng),
@@ -58,7 +69,7 @@ angular.module('ev')
       };
       var mapElement = document.getElementById('map');
       $scope.map = new google.maps.Map(mapElement, mapOptions);
-      loadMarkers();
+      return $scope.map;
     }
   }]);
 
