@@ -47,7 +47,7 @@
       <file leaf-file-name="map.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="282" selection-end="282" vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="572">
+            <state line="9" column="30" selection-start="328" selection-end="328" vertical-scroll-proportion="-6.387097" vertical-offset="0" max-vertical-offset="616">
               <folding />
             </state>
           </provider>
@@ -62,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="42" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2090">
+            <state line="23" column="40" selection-start="718" selection-end="718" vertical-scroll-proportion="0.27784157" vertical-offset="264" max-vertical-offset="2728">
               <folding />
             </state>
           </provider>
@@ -74,16 +74,25 @@
       <file leaf-file-name="statics.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/statics.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1056">
+            <state line="41" column="46" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bubble.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/scripts/templates/bubble.html">
+      <file leaf-file-name="event.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/event.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="14" selection-start="20" selection-end="20" vertical-scroll-proportion="0.025791325" vertical-offset="0" max-vertical-offset="853">
+            <state line="1" column="28" selection-start="43" selection-end="43" vertical-scroll-proportion="-0.7096774" vertical-offset="0" max-vertical-offset="286">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="421" column="19" selection-start="13024" selection-end="13051" vertical-scroll-proportion="0.0" vertical-offset="8510" max-vertical-offset="9614">
               <folding />
             </state>
           </provider>
@@ -107,15 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="69" selection-end="69" vertical-scroll-proportion="-1.4193548" vertical-offset="0" max-vertical-offset="242">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -133,16 +133,19 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/test.js" />
         <option value="$PROJECT_DIR$/app/views/about.html" />
         <option value="$PROJECT_DIR$/app/views/contact.html" />
-        <option value="$PROJECT_DIR$/app/views/map.html" />
         <option value="$PROJECT_DIR$/app/views/404.html" />
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/404.html" />
         <option value="$PROJECT_DIR$/app/scripts/services/static.js" />
         <option value="$PROJECT_DIR$/app/scripts/ev-app.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/statics.js" />
         <option value="$PROJECT_DIR$/app/scripts/templates/bubble.html" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/app/templates/bubble.html" />
+        <option value="$PROJECT_DIR$/app/scripts/services/statics.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
+        <option value="$PROJECT_DIR$/app/templates/event.html" />
+        <option value="$PROJECT_DIR$/app/views/map.html" />
       </list>
     </option>
   </component>
@@ -206,60 +209,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="event-io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="event-io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lodash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="event-io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="event-io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lodash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="event-io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="event-io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -278,7 +227,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,14 +242,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,6 +278,11 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\erland\code\event-io\app\templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -402,7 +370,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="0" width="1684" height="1040" extended-state="0" />
+    <frame x="236" y="0" width="1684" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -472,13 +440,6 @@
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="30" selection-start="212" selection-end="212" vertical-scroll-proportion="0.20253165" vertical-offset="0" max-vertical-offset="869">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="8720">
           <folding />
         </state>
       </provider>
@@ -553,9 +514,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/map.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/ev-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="282" selection-end="282" vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="572">
+        <state line="19" column="14" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="946">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="421" column="19" selection-start="13024" selection-end="13051" vertical-scroll-proportion="0.0" vertical-offset="8510" max-vertical-offset="9614">
           <folding />
         </state>
       </provider>
@@ -567,30 +535,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/ev-app.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/statics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="946">
+        <state line="41" column="46" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="28" selection-start="43" selection-end="43" vertical-scroll-proportion="-0.7096774" vertical-offset="0" max-vertical-offset="286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="328" selection-end="328" vertical-scroll-proportion="-6.387097" vertical-offset="0" max-vertical-offset="616">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2090">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/statics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1056">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/templates/bubble.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="20" selection-end="20" vertical-scroll-proportion="0.025791325" vertical-offset="0" max-vertical-offset="853">
+        <state line="23" column="40" selection-start="718" selection-end="718" vertical-scroll-proportion="0.27784157" vertical-offset="264" max-vertical-offset="2728">
           <folding />
         </state>
       </provider>

@@ -419,7 +419,8 @@ module.exports = function (grunt) {
         'modernizr',
         'rev',
         'usemin',
-        'htmlmin'
+        'htmlmin'/*,
+        'ngtemplates'*/
     ]);
 
     grunt.registerTask('default', [

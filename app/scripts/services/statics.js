@@ -12,9 +12,9 @@ angular.module('ev')
       ];
 
       var locations = [
-        {cid: 0, lat: 60.3900, lng: 5.3200, label: 'Bergen Sentrum Scene'},
-        {cid: 0, lat: 60.393707, lng: 5.326618, label: 'Suitellet'},
-        {cid: 1, lat: 59.9100, lng: 10.7500, label: 'Oslo Sentrum Scene'}
+        {id: '0000', cid: 0, lat: 60.3900, lng: 5.3200, label: 'Bergen Sentrum Scene'},
+        {id: '0001', cid: 0, lat: 60.393707, lng: 5.326618, label: 'Suitellet'},
+        {id: '0002', cid: 1, lat: 59.9100, lng: 10.7500, label: 'Oslo Sentrum Scene'}
       ];
 
       var bubbles = [
@@ -37,6 +37,9 @@ angular.module('ev')
           }
         });
         return arr;
+      },
+      getLocationById : function (id) {
+        return _.find(locations, {'id' : id});
       }
     };
   }]);
